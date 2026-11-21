@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Order Your CV | SmartEarn AI</title>
+<meta name="description" content="Fill in the SmartEarn AI order form and send your CV order details on WhatsApp. Student, graduate and professional CVs in PDF.">
+<meta name="author" content="SmartEarn AI">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#101B35">
+<link rel="canonical" href="https://YOUR-USERNAME.github.io/smartearn-ai/order.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Order Your CV | SmartEarn AI">
+<meta property="og:description" content="Fill in the SmartEarn AI order form and send your CV order details on WhatsApp. Student, graduate and professional CVs in PDF.">
+<meta property="og:url" content="https://YOUR-USERNAME.github.io/smartearn-ai/order.html">
+<meta property="og:image" content="https://YOUR-USERNAME.github.io/smartearn-ai/banner.jpg">
+<meta property="og:site_name" content="SmartEarn AI">
+<meta property="og:locale" content="en_PK">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="sitemap" type="application/xml" title="Sitemap" href="sitemap.xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header id="hd"></header>
+<main>
+<section><div class="w">
+<h1>Order Your CV</h1>
+<p style="margin-top:8px">Fill in the form, review your details, then send them on WhatsApp. Your order is only placed once you send the message. Fields marked * are required.</p>
+<form id="of" novalidate>
+<div><label for="fn">Full Name *</label><input id="fn" autocomplete="name" required aria-describedby="e-fn"><p class="err" id="e-fn" role="alert"></p></div>
+<div><label for="ph">WhatsApp Number *</label><input id="ph" type="tel" inputmode="tel" autocomplete="tel" placeholder="03XXXXXXXXX" required aria-describedby="e-ph"><p class="err" id="e-ph" role="alert"></p></div>
+<div><label for="em">Email (optional)</label><input id="em" type="email" autocomplete="email" aria-describedby="e-em"><p class="err" id="e-em" role="alert"></p></div>
+<div><label for="city">City *</label><input id="city" autocomplete="address-level2" required aria-describedby="e-city"><p class="err" id="e-city" role="alert"></p></div>
+<div><label for="cv">CV Type *</label><select id="cv" required aria-describedby="e-cv"></select><p class="err" id="e-cv" role="alert"></p></div>
+<div><label for="edu">Education *</label><textarea id="edu" rows="3" placeholder="Degree, institute, years, marks / CGPA" required aria-describedby="e-edu"></textarea><p class="err" id="e-edu" role="alert"></p></div>
+<div><label for="sk">Skills *</label><textarea id="sk" rows="3" placeholder="e.g. MS Office, communication, design tools" required aria-describedby="e-sk"></textarea><p class="err" id="e-sk" role="alert"></p></div>
+<div><label for="ex">Experience</label><textarea id="ex" rows="3" placeholder="Jobs, internships, projects (leave empty if none)"></textarea></div>
+<div><label for="lang">Languages</label><input id="lang" placeholder="e.g. Urdu, English"></div>
+<div><label for="ins">Additional Instructions</label><textarea id="ins" rows="3"></textarea></div>
+<button class="btn" type="submit">Review &amp; Continue to WhatsApp</button>
+</form>
+<div id="cf" class="card" tabindex="-1" hidden style="margin-top:18px;max-width:640px">
+<h2>Review Your Order</h2>
+<p><b>Your order is not placed yet.</b> Tap the button below, then press Send in WhatsApp to submit it to SmartEarn AI.</p>
+<pre id="sum"></pre>
+<div class="row"><a id="go" class="btn">Open WhatsApp &amp; Send</a><button id="ed" class="btn d" type="button">Edit Details</button></div>
+</div>
+<p style="margin-top:26px">Prefer to chat first?</p>
+<p style="margin-top:8px"><a class="btn d" data-wa="Hello SmartEarn AI! I want to order a professional CV. Please guide me.">Order via WhatsApp</a></p>
+<p class="note" style="margin-top:14px">After your order is confirmed, see the <a href="payment.html">Easypaisa payment page</a>.</p>
+</div></section>
+</main>
+<footer id="ft"></footer>
+<script src="config.js"></script>
+<script src="site.js"></script>
+</body>
+</html>
